@@ -1,0 +1,126 @@
+Check Port Centos 7
+firewall-cmd --list-ports
+
+firewall-cmd --zone=public --permanent --add-port=8080/tcp
+firewall-cmd --reload
+git config core.filemode false
+tree /f > tree.txt -> tree folder di windows
+Setting Production LinovHR Cloud Admin
+chmod -R 777 *
+git config core.filemode false
+npm install
+npm install -g bower
+bower install
+bower update
+
+npm install gulp
+npm install -g gulp
+gulp --production
+
+npm update
+npm install
+nodejs node_modules/node-sass/scripts/install.js
+npm rebuild node-sass
+ESS Installation
+chmod -R 777 *
+git config core.filemode false
+composer install
+npm install
+npm install -g bower
+bower install
+bower update
+php -r "copy('.env.example', '.env');"
+setting file .env : 
+APP_URL= | DB_CONNECTION = pgsql | DB_HOST= | DB_PORT=5432 | DB_DATABASE= | DB_USERNAME= | DB_PASSWORD
+
+php artisan key:generate
+php artisan laroute:generate
+php artisan config:cache
+php artisan cache:clear
+
+Header set Access-Control-Allow-Origin "*"
+Recruitment Installation
+chmod -R 777 *
+git config core.filemode false
+composer install
+composer update
+npm install
+npm install -g bower
+bower install
+bower update
+setting database 
+composer require guzzlehttp/guzzle:~6.0
+API Installation
+chmod -R 777 *
+git config core.filemode false
+setting database : config/database.php
+  linAdmin : Database LinovHR Adminnya
+  linRecruitment : Database LinovHR Recruitment
+setting database : .env
+  APP_URL= 
+  DB_CONNECTION = pgsql 
+  DB_HOST= 
+  DB_PORT=5432
+  DB_DATABASE=
+  DB_USERNAME=
+  DB_PASSWORD=
+composer install
+composer update
+
+Agar Tulisanya Uppercase:
+"/vendor/league/oauth2-server/src/ResourceServer.php" rubah access_token = ACCESS_TOKEN
+API Payroll Engine
+chmod -R 777 *
+git config core.filemode false
+setting database : config/database.php
+Restart Centos Terminal
+setenforce 0 (menonaktifkan SELinux)
+/opt/lampp/lampp/start
+service httpd start
+service tomcat6 start
+
+reboot -h now
+Login Postgres via CMD
+# psql -U postgres                                                          (login postgres cmd)
+# \list                                                                            (list database)
+# \connect nama-database                                              (pilih database)
+# pg_dump -U username -f backup.sql database_name      (backup database local)
+# psql -U username -d database_name -f backup.sql          (restore database local)
+
+Eksport database Postgres: 
+psql -U postgres -d linov_lms < backup_moodle.sql
+
+PG_dump Backup
+pg_dump -U user db_name > archive_name.sql
+
+PG_dump Restore
+psql -U user db_name < /directory/archive.sql
+
+Jika mismatch versi pg_dump
+/var/lib/pgsql/9.1/data/pg_dump nama-database > backup.sql
+Open Port : 
+iptables -A INPUT -m state --state NEW -p tcp --dport 8080 -j ACCEPT
+/sbin/service iptables save
+
+Eksport database SQL Server:
+sqlcmd -S Sec-Indo03,1433\MSSQLSERVER -U fandeka -P fandeka123 -d hris_timas -i C:\Users\Administrator\Downloads\scriptJan2017.sql
+
+sqlcmd -S HUDAAZZUHRI-PC,1433\MSSQLSERVER -U sa -P root -d hris_securitas_6 -i D:\Lawencon\Backup_Database\hris_securitas_server_6_20102015.sql
+
+
+Export DB Mysql : mysqldump -u root -p database_name > dump.sql
+fish://username@server_name_or_ip
+Git
+git describe --tags
+git checkout tags/<tags number>
+
+[ ECMDERR Failed to execute "git ls-remote --tags --heads ]
+git config --global url."https://".insteadOf git://
+Google Chrome No Sanbox
+# google-chrome --no-sandbox
+
+
+
+
+
+
