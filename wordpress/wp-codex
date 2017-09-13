@@ -1,0 +1,5 @@
+Get Image Attribute : //didalam foreach
+$id_image_header = $value['header-image'];
+$url_image = wp_get_attachment_url($value['header-image']); // get url image
+$title_image_header = get_the_title($id_image_header); // get title image
+$alt_image_header = get_post_meta( $id_image_header, '_wp_attachment_image_alt', true); // get alt text dari media
