@@ -2,4 +2,5 @@
 
 #php artisan serv /running project laravel
 #php artisan config:cache /clear cache configuration
+#php artisan make:model NamaModel -mcr /membuat model, controller & migrasi tabel
 
