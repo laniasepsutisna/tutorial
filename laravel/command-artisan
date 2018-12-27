@@ -1,0 +1,5 @@
+#compoaser install /untuk install composer depedenci
+
+#php artisan serv /running project laravel
+#php artisan config:cache /clear cache configuration
+
